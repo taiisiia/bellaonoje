@@ -432,3 +432,12 @@ a {
     }
   
   }
+
+  @media screen and (max-width: 1051px) {
+    .phone1 {
+      width: 250px;
+    }
+    .phone2 {
+      width: 230px;
+    }
+  }
