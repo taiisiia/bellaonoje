@@ -441,3 +441,12 @@ a {
       width: 230px;
     }
   }
+
+  @media screen and (max-width: 840px) and (min-width: 500px) {
+    .phone1,  .info2 {
+      margin-left: 5%;
+    }
+    .phone2, .info {
+      margin-right: 5%;
+    }
+  }
