@@ -114,3 +114,24 @@ body {
 .span2 {
   display: none;
 }
+
+/*Phones, line*/
+
+.phones {
+    text-align: center;
+  }
+  
+  .hr-line, .hr-line1 {
+    max-width: 70%;
+    margin: 20px auto;
+    border-color: #e4e4e4;
+  }
+  .hr-line1 {
+    display: none;
+  }
+  
+  .main-header {
+    font-size: 44px;
+    text-align: center;
+    margin-top: 5%;
+  }
