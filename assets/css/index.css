@@ -256,3 +256,179 @@ a {
   .p-footer1 {
     display: none;
   }
+
+  /*Media iPhone */
+
+@media screen and (min-width: 320px) and (max-width:633px){
+
+    /*Media header*/
+  
+    .logo {
+      height: 50px;
+      width: 100px;
+      margin-left: 0.5rem;
+    }
+  
+    .header-info {
+      background-image: none;
+      background-color: #ffffff;
+      color: #252b42;
+      align-items: center;
+    }
+  
+    .header-p1 {
+      margin: 20px;
+    }
+  
+    .header-h {
+      margin: 0 20px 40px;
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .header-p2 {
+      margin: 0 10px 50px;
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    /*Media buttons-header*/
+  
+    .buttons {
+      display: flex;
+      flex-direction: column;
+    }
+    .play-store {
+      margin-bottom: 10%;
+      margin-right: 0;
+    }
+    .app-store {
+      border-color: #f74a25;
+      color: #f74a25;
+    }
+    .app-store:hover, 
+    .play-store:hover{
+      border: #f74a25 3px solid;
+    }
+    .play-store:hover {
+     background-color:#ffffff;
+     color: #f74a25;
+    }
+  
+    /*Media phones, line*/
+  
+    .twophones {
+      width: 420px;
+      margin-top: -150px;
+    }
+  
+    .main-header {
+      font-size: 30px;
+      margin-bottom: 3%;
+    }
+  
+    .hr-line {
+      display: none;
+    }
+    .hr-line1 {
+      display: block;
+      max-width: 100%;
+    }
+  
+    /*Media 'create account', 'explore varieties' sections*/
+  
+    .create-account {
+      display: flex;
+      flex-direction: column-reverse;
+      text-align: center;
+      margin-left: 20px;
+    }
+  
+    .info {
+      text-align: center;
+    }
+  
+    .variaties {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .p1 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  
+    .phone1 {
+      width: 270px;
+      margin-right: 80px;
+      
+    }
+  
+    .phone2 {
+      width: 250px;
+      filter: drop-shadow();
+    }
+  
+    .info2 {
+      margin-left: 0;
+    }
+  
+    /*Media footer*/
+  
+    .footer-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 0;
+      background-image: none;
+      background-color: #252b42;
+    }
+    .footer-p2 {
+      display: none;
+    }
+    .footer-p3 {
+      display: initial;
+    }
+  
+    /*Media buttons-footer*/
+  
+    .buttons-footer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .play-store-footer,
+    .app-store-footer {
+      padding: 20px;
+    }
+  
+    .span1 {
+      display: none;
+    }
+  
+    .span2 {
+      display: initial;
+    }
+  
+    .logo-footer {
+      display: none;
+    }
+  
+    .logo-socials-area {
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+  
+    .p-footer {
+      display: none;
+    }
+  
+    .p-footer1 {
+      display: initial;
+    }
+  
+  }
