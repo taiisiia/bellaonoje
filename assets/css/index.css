@@ -450,3 +450,10 @@ a {
       margin-right: 5%;
     }
   }
+
+
+@media screen and (max-width: 765px) and (min-width: 500px) {
+  .buttons-footer {
+    display: flex;
+  }
+}
