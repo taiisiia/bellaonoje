@@ -71,3 +71,46 @@ body {
     margin: 0 100px 70px 100px;
     font-size: 60px;
   }
+
+  /*Buttons header and footer*/
+
+.play-store,
+.app-store,
+.play-store-footer,
+.app-store-footer {
+  color: #ffffff;
+  background-color: #f74a25;
+  border: #f74a25 1px solid;
+  border-radius: 30px;
+  padding: 20px 40px;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.play-store-footer,
+.app-store-footer {
+  border-radius: 10px;
+}
+
+.play-store,
+.play-store-footer {
+  margin-right: 40px;
+}
+
+.app-store,
+.app-store-footer {
+  background-color: transparent;
+  border: #ffffff 1px solid;
+}
+
+.play-store:hover,
+.app-store:hover,
+.play-store-footer:hover,
+.app-store-footer:hover {
+  border: 3px solid white;
+}
+
+.span2 {
+  display: none;
+}
