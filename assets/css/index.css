@@ -457,3 +457,18 @@ a {
     display: flex;
   }
 }
+
+@media screen and (max-width: 692px) and (min-width: 500px) {
+    .footer-info {
+      text-align: center;
+    }
+    .app-store-footer, .play-store-footer {
+      padding: 20px 10px;
+    }
+    .logo-footer {
+      display: none;
+    }
+    .logo-socials-area {
+      height: 20%;
+    }
+  }
