@@ -81,7 +81,7 @@ body {
 .app-store-footer {
   color: #ffffff;
   background-color: #f74a25;
-  border: #f74a25 1px solid;
+  border: #f74a25 3px solid;
   border-radius: 30px;
   padding: 20px 40px;
   font-size: 25px;
@@ -102,15 +102,19 @@ body {
 .app-store,
 .app-store-footer {
   background-color: transparent;
-  border: #ffffff 1px solid;
+  border: #ffffff 3px solid;
 }
 
 .play-store:hover,
-.app-store:hover,
-.play-store-footer:hover,
-.app-store-footer:hover {
+.play-store-footer:hover {
   border: 3px solid white;
 }
+
+.app-store:hover,
+.app-store-footer:hover {
+  border: 3px solid #f74a25;
+}
+
 
 .span2 {
   display: none;
@@ -149,7 +153,7 @@ body {
   max-width: 1440px;
   width: 100%;
   height: 100vh;
-  margin: 0;
+  margin: auto;
 
   background: #ffffff;
 }
